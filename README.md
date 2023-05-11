@@ -128,7 +128,7 @@ public class Playlist : IMusicComponent
      }
 }
 ```
-# 3. Proxy
+# 4. Proxy
 Proxy este un model structural care permite crearea unui obiect intermediar care acționează ca un substitut pentru alt obiect. În secvența de cod de mai jos, folosim modelul Proxy pentru a crea un obiect MusicLibraryProxy care acționează ca un substitut pentru obiectul MusicLibrary. Acest lucru ne permite să adăugăm verificarea autorizării pentru utilizator înainte de a permite adăugarea, ștergerea sau actualizarea cântecelor în biblioteca de muzică.
 ```
  public class MusicLibraryProxy
